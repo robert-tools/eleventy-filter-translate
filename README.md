@@ -13,10 +13,17 @@ npm install @robert.tools/eleventy-filter-translate
 ### 📝 Sample usage
 
 ```typescript
-import { eleventy-filter-translate } from '@robert.tools/eleventy-filter-translate';
+import translate from '@robert.tools/eleventy-filter-translate';
 
-eleventy-filter-translate('hello'); // 'eleventy-filter-translate: hello'
 ```
+## 📜 Usage
+
+```nunjucks
+{{ "foo" | translate({ "foo": "bar" }) }} {# translated value: "bar" #}
+{{ "lorem" | translate({ "foo": "bar" }) }} {# fallback key: "lorem" #}
+
+```
+
 
 ## 🗃️ commands
 After an npm install with `npm i` the following commands are available:

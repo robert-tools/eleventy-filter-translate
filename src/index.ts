@@ -1,11 +1,12 @@
 /**
- * 🗂️ main module
- * @version 1.0.0
- * @date 2026-09-06
- * @license MIT
- * @author Robert Willemelis <github.com/willi84>
+ * 🎯 Translates a key using the provided translations object.
+ * @param {string} key ➡️ The key to translate.
+ * @param {any} translations ➡️ The translations object.
+ * @returns {string} 📤 The translated value or the key if not found.
  */
-import type { SAMPLE } from './index.d';
-export function sample(value: SAMPLE): string {
-    return `sample: ${value}`;
-}
+const fn = (key: string, translations: any) => {
+    if (!translations || typeof translations !== 'object') return key;
+    return translations[key] || key;
+};
+
+export default fn;
