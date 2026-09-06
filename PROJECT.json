@@ -1,10 +1,10 @@
 {
     "$schema": "https://willi84.github.io/project-tracking-record/project.schema.json",
-    "🗂️ name": "@robert.tools/sample",
-    "🎯 goal": "<description>",
-    "🔖 version": "1.1.5",
+    "🗂️ name": "@robert.tools/eleventy-filter-translate",
+    "🎯 goal": "Translating a property to a given reference of translations",
+    "🔖 version": "1.0.0",
     "📄 id": "ROB-005",
-    "⚖️ license": "<license>",
-    "👩 author": "<author>",
+    "⚖️ license": "MIT",
+    "👩 author": "Robert Willemelis",
     "🚦 status": "active"
 }

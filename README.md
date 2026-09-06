@@ -1,21 +1,21 @@
-# 🗂️ @robert.tools/sample
+# 🗂️ @robert.tools/eleventy-filter-translate
 
-<description>
+Translating a property to a given reference of translations
 
 ## 📜 Usage
 
 ### 🟢 Installation
 
 ```bash
-npm install @robert.tools/sample
+npm install @robert.tools/eleventy-filter-translate
 ```
 
 ### 📝 Sample usage
 
 ```typescript
-import { <name> } from '@robert.tools/sample';
+import { eleventy-filter-translate } from '@robert.tools/eleventy-filter-translate';
 
-<name>('hello'); // '<name>: hello'
+eleventy-filter-translate('hello'); // 'eleventy-filter-translate: hello'
 ```
 
 ## 🗃️ commands
